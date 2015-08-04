@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="fb2de4de-04f7-423b-9147-35543b94844e" />
+  <nestedChildShapes>
+    <actorShape Id="adace158-c71f-4b7a-be1f-d0461d684ff1" absoluteBounds="2.375, 3.125, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="81c5aab9-ba5b-4853-8100-ce2675f80b17" LastKnownName="Користувач" />
+      <relativeChildShapes />
+    </actorShape>
+    <SubsystemShape Id="54892b1c-2c31-4e75-9e3a-5cabe306acb6" absoluteBounds="3.25, 1.875, 5.625, 2.875" customColor="White">
+      <subsystemMoniker Id="f53d0785-66c4-4350-8c1e-59dc491f8ab3" LastKnownName="Підсистема &quot;Клієнт-сервер&quot;" />
+      <nestedChildShapes>
+        <useCaseShape Id="b9c38c06-5570-463b-bf16-c6228150d0c9" absoluteBounds="3.5, 2.75, 1.25, 1.125" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="5e9e2674-aec4-429b-a4f8-0488ab975128" LastKnownName="Встановлення необхідних параметрів для симулювання" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="17985bac-a306-4365-9988-ce6000c372d6" absoluteBounds="5.5, 2.875, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="869af58e-c85d-495d-b3cc-243af36a8c47" LastKnownName="Сервер" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <extendConnector edgePoints="[(4.74957177110423 : 3.29168094096319); (5.50049309676688 : 3.26665023010777)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="Підключення">
+          <extendMoniker Id="4640250c-dc2b-42b6-9182-e3e261fe1eff" />
+          <relativeChildShapes />
+          <moveableDecoratorHostShapes>
+            <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="4.7605154401091765, 3.3752513528507193, 0.72366893291473389, 0.14800345897674561" shapeFieldName="NameDecorator" />
+          </moveableDecoratorHostShapes>
+          <nodes>
+            <useCaseShapeMoniker Id="b9c38c06-5570-463b-bf16-c6228150d0c9" />
+            <useCaseShapeMoniker Id="17985bac-a306-4365-9988-ce6000c372d6" />
+          </nodes>
+        </extendConnector>
+        <useCaseShape Id="a92648f1-c165-4190-af3e-f689899a30d0" absoluteBounds="7, 2.375, 1.125, 0.875" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="edc3e742-7a27-4493-a09a-4d99fffdf0e1" LastKnownName="Провести симулювання" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="7cb034d1-253b-4c93-bd2f-c81dfd99e028" absoluteBounds="7, 3.375, 1.125, 0.875" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="b7c97168-0974-445b-ad44-4ead05be3386" LastKnownName="Записати дані в БД" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 3.36856907947237); (3.5015783846305 : 3.35245117628881)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="63ca8e08-05db-4262-ab72-170b6f46a095" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="adace158-c71f-4b7a-be1f-d0461d684ff1" />
+        <useCaseShapeMoniker Id="b9c38c06-5570-463b-bf16-c6228150d0c9" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(6.46842075736368 : 3.11884218793817); (7.03325083082384 : 2.96068976736932)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="6b201d93-142a-43ea-9e84-c2521f2c2d5c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="17985bac-a306-4365-9988-ce6000c372d6" />
+        <useCaseShapeMoniker Id="a92648f1-c165-4190-af3e-f689899a30d0" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(6.45076152873414 : 3.41227415034429); (7.0520292723909 : 3.62873053806072)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="fb26c805-0dae-4bff-b307-c6676f0352a0" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="17985bac-a306-4365-9988-ce6000c372d6" />
+        <useCaseShapeMoniker Id="7cb034d1-253b-4c93-bd2f-c81dfd99e028" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,12 @@
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\bin\Debug\Client.exe.config
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\bin\Debug\Client.exe
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\bin\Debug\Client.pdb
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\obj\Debug\Client.Form1.resources
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\obj\Debug\Client.Properties.Resources.resources
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\obj\Debug\Client.exe
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Client\Client\obj\Debug\Client.pdb
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Олекс\Client\Client\bin\Debug\Client.exe.config
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Олекс\Client\Client\obj\Debug\Client.exe
+F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Олекс\Client\Client\obj\Debug\Client.pdb

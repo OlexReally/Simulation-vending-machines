@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="fb2de4de-04f7-423b-9147-35543b94844e" name="UMLUseCaseDiagram1" linkedPackageId="e65ae541-6d28-4188-9762-b7c1fe6e5f59" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="09f9934b-eab7-45aa-ab55-8f13277d04ae">
+      <profileInstance Id="7a848735-ac26-411d-b820-b0b0ebe3fa31" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0605c9b0-54f3-42ca-a3ce-2a024c6449e2">
+      <profileInstance Id="83b878d2-4f16-4f58-92a1-1d59ee446a26" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="81c5aab9-ba5b-4853-8100-ce2675f80b17" name="Користувач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="46619b8a-88e8-4b79-ad3d-3439d8a87b16" />
+        <targetEnds>
+          <association Id="63ca8e08-05db-4262-ab72-170b6f46a095" isDerived="false" sourceEndRoleName="Користувач" targetEndRoleName="Встановлення необхідних параметрів для симулювання" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5e9e2674-aec4-429b-a4f8-0488ab975128" LastKnownName="Встановлення необхідних параметрів для симулювання" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="267670bc-3bf4-43e5-8b1e-1ef298fc8e36" name="Користувач" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b9b5063a-3de7-4cbe-b521-76e44bf7f08f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b35fcebc-1611-4de7-a9fb-812b4089342e" name="Встановлення необхідних параметрів для симулювання" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="12eee5df-5e35-45a6-9a26-2847afea3474" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d4ed8acc-ff7b-45e5-9412-8c1c5dd3da44" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5e9e2674-aec4-429b-a4f8-0488ab975128" name="Встановлення необхідних параметрів для симулювання" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6cd7697a-5dd6-4a04-b5c3-3935a96c3389" />
+        <extendedCases>
+          <extend Id="4640250c-dc2b-42b6-9182-e3e261fe1eff">
+            <useCaseMoniker Id="869af58e-c85d-495d-b3cc-243af36a8c47" LastKnownName="Сервер" />
+            <elementDefinition Id="b564e9ef-ac6e-49a1-b7e1-276dd4847c09" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="f53d0785-66c4-4350-8c1e-59dc491f8ab3" LastKnownName="Підсистема &quot;Клієнт-сервер&quot;" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="869af58e-c85d-495d-b3cc-243af36a8c47" name="Сервер" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bead8024-ebaa-4ec0-b8c8-c3c11fed6919" />
+        <targetEnds>
+          <association Id="6b201d93-142a-43ea-9e84-c2521f2c2d5c" isDerived="false" sourceEndRoleName="Сервер" targetEndRoleName="Провести симулювання" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="edc3e742-7a27-4493-a09a-4d99fffdf0e1" LastKnownName="Провести симулювання" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="652b1400-4f4f-435c-9ee6-c15e53756ade" name="Сервер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="05559c4f-5078-4f89-a2f3-043a1232bd1a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1f8130e5-830a-47f6-8362-091286da2c83" name="Провести симулювання" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="563b8702-13d4-454e-abed-b6c2a03256a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c93511bd-891a-49c1-9201-d4f9c15ff11e" />
+          </association>
+          <association Id="fb26c805-0dae-4bff-b307-c6676f0352a0" isDerived="false" sourceEndRoleName="Сервер" targetEndRoleName="Записати дані в БД" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b7c97168-0974-445b-ad44-4ead05be3386" LastKnownName="Записати дані в БД" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="913ef12c-0af1-48de-8624-9964bd96f183" name="Сервер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b3443125-aff9-4bcc-b0d2-338d1f3a7cb6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0065718e-c830-4aac-ac33-83b20a911ec7" name="Записати дані в БД" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b8a38715-9a67-4830-8390-3300289d10ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8d2c7dd1-9863-4525-951b-b4ecb5ee3f34" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="f53d0785-66c4-4350-8c1e-59dc491f8ab3" LastKnownName="Підсистема &quot;Клієнт-сервер&quot;" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="f53d0785-66c4-4350-8c1e-59dc491f8ab3" name="Підсистема &quot;Клієнт-сервер&quot;" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="54739f57-94e9-4349-bec0-41e83f42d66e" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="edc3e742-7a27-4493-a09a-4d99fffdf0e1" name="Провести симулювання" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="82202708-b349-4d14-ac7c-17138715c7f7" />
+        <subjects>
+          <subsystemMoniker Id="f53d0785-66c4-4350-8c1e-59dc491f8ab3" LastKnownName="Підсистема &quot;Клієнт-сервер&quot;" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b7c97168-0974-445b-ad44-4ead05be3386" name="Записати дані в БД" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2c80fc76-28b9-44cc-b8a4-cf8fab97f128" />
+        <subjects>
+          <subsystemMoniker Id="f53d0785-66c4-4350-8c1e-59dc491f8ab3" LastKnownName="Підсистема &quot;Клієнт-сервер&quot;" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e65ae541-6d28-4188-9762-b7c1fe6e5f59" name="ModelingProject1">
+    <elementDefinition Id="7e499578-c07e-4203-8f46-3a3cb066e4e5" />
+  </package>
+</useCaseModelRoot>
