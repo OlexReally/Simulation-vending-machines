@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+Author - Kutaev O. V.
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,10 +56,8 @@ namespace Server
 
         static void ConnectFunc(object client_obj)
         {
-
             string[] split;
             byte[] msg;
-            //DBMySQL db = new DBMySQL();
             Byte[] bytes = new Byte[256];
             String data = null;
 

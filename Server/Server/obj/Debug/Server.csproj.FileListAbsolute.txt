@@ -5,3 +5,10 @@ F:\Навчання\5 курс\2 семестр\Програмування Ко�
 F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
 F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Server\Server\obj\Debug\Server.exe
 F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Server\Server\obj\Debug\Server.pdb
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\bin\Debug\Server.exe.config
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\obj\Debug\Server.exe
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\obj\Debug\Server.pdb
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\bin\Debug\Server.exe
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\bin\Debug\Server.pdb
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\bin\Debug\MySql.Data.dll
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
