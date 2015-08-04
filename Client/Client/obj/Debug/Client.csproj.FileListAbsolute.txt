@@ -10,3 +10,12 @@ F:\Навчання\5 курс\2 семестр\Програмування Ко�
 F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Олекс\Client\Client\bin\Debug\Client.exe.config
 F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Олекс\Client\Client\obj\Debug\Client.exe
 F:\Навчання\5 курс\2 семестр\Програмування Комп мереж Сало\Курсова ПКМ\Олекс\Client\Client\obj\Debug\Client.pdb
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\bin\Debug\Client.exe.config
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\obj\Debug\Client.exe
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\obj\Debug\Client.pdb
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\bin\Debug\Client.exe
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\bin\Debug\Client.pdb
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\obj\Debug\Client.Form1.resources
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\obj\Debug\Client.Properties.Resources.resources
+F:\VS programs\GitHubRepository\Simulation-vending-machines\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache

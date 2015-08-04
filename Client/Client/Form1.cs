@@ -27,12 +27,12 @@ namespace Client
 
             toolStripMenuItem3.Enabled = false;
 
-            //к-сть автоматів
+            //count of machine
             numericUpDown1.Value = 1;
             numericUpDown1.Maximum = 10;
             numericUpDown1.Minimum = 1;
 
-            //к-сть транзакцій
+            //count of transaction
             numericUpDown2.Value = 1;
             numericUpDown2.Maximum = 1000;
             numericUpDown2.Minimum = 1;
@@ -46,7 +46,7 @@ namespace Client
                 client.Close();
             Close();
         }
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)//Check Connect
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)//Establish connect with server
         {
             HandShake();
         }
@@ -80,7 +80,7 @@ namespace Client
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Невдалось підключитись до сервера. Спробуйте пізніше.");
+                MessageBox.Show("Невдалось підключитись до сервера. Спробуйте пізніше.\n\n" + ex.ToString());
             }
         }
 
@@ -134,7 +134,7 @@ namespace Client
             ServerAnswer(buttonNumber);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//set count of machine
         {
             if(!isConnected)
             {
@@ -143,11 +143,9 @@ namespace Client
             }
 
             sendToServer("AUTOMAT_COUNT " + numericUpDown1.Value.ToString(), 1);
-
-            //button1.Enabled = false;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)//check
         {
             if (!isConnected)
             {
@@ -170,11 +168,9 @@ namespace Client
             }
 
             sendToServer("TRANSACTION " + a.ToString(), 2);
-
-            //button2.Enabled = false;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)//set count of transactions
         {
             if (!isConnected)
             {
@@ -183,11 +179,9 @@ namespace Client
             }
 
             sendToServer("TRANSACTION_COUNT " + numericUpDown2.Value.ToString(), 3);
-
-            //button3.Enabled = false;
         }
 
-        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)//menu
         {
             client.Close();
             toolStripMenuItem1.Enabled = true;
@@ -198,8 +192,6 @@ namespace Client
             button3.Enabled = true;
 
             isConnected = false;
-
-            //MessageBox.Show("З'єднання з сервером розірвано");
         }
 
         private void button4_Click(object sender, EventArgs e)
